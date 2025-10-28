@@ -1,0 +1,68 @@
+.landing-container {
+  position: relative;
+  height: 100vh;
+  background-image: url("/assets/images/tree.jpg"); 
+  background-size: cover;
+  background-position: center;
+
+  color: white;
+  
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.8); /* black overlay */
+  z-index: 1;
+}
+
+.content {
+  position: relative;
+  z-index: 2;
+ 
+  padding: 20px;
+}
+
+.title{
+    font-size:2rem;
+    font-weight:700;
+}
+
+.line {
+  width: 60px;
+  height: 2px;
+  background-color: #4caf50;
+  margin: 10px auto;
+}
+
+.subtitle {
+  font-size: 1.1rem;
+  margin-bottom: 20px;
+}
+
+.get-started-btn {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 12px 30px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 1rem;
+  margin-bottom: 20px;
+  transition: 0.3s;
+}
+
+.get-started-btn:hover {
+  background-color: #3d9142;
+}
+
+.description {
+  font-size: 15px;
+  text-align:justify;
+  
+  max-width: 700px;
+  margin: 0 auto;
+}
